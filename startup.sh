@@ -20,3 +20,11 @@ source crows/bin/activate
 
 export XDG_CACHE_HOME=$SCRATCH #so snakemake writes temp files where it is allowed
 
+# for dolores (did this in new env with python v3.11 - wasnt working with 3.14)
+#git clone https://github.com/a-ignatieva/dolores.git
+#cd dolores/
+#module load gcc/12.3
+#module load gsl/2.7
+#pip install -r requirements.txt
+#had to remove brackets from stored_nbytes() in a tscompress file to run the example
+
