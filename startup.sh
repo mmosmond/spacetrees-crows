@@ -27,4 +27,5 @@ export XDG_CACHE_HOME=$SCRATCH #so snakemake writes temp files where it is allow
 #module load gsl/2.7
 #pip install -r requirements.txt
 #had to remove brackets from stored_nbytes() in a tscompress file to run the example
+#python -m run-dolores -C chr18 -n chr18 -t crows --genetic_map_loc crows/chr18.map -s None --genetic_map_stdpopsim None
 
